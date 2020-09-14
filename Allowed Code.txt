@@ -1,0 +1,19 @@
+JZ[address]
+NOT B
+CALL[address]
+RET
+MOV B,byte
+HLT
+PUSH A
+OUT B
+TEST A,[address]
+IN C
+POP[address]
+SUB B,C
+XCHG[address],D
+MUL C,B
+RCL A
+XOR[address],A
+MOV A,byte
+MOV C,byte
+MOV D,byte
